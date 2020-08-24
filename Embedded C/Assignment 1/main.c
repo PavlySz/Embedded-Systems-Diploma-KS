@@ -7,5 +7,8 @@
 
 // Main function
 void main() {
-    printf("Hello world!");
+    int user_in;
+    printf("Enter a number, mate:");
+    scanf("%d", &user_in);
+    printf("You entered: %d", user_in);
 }
